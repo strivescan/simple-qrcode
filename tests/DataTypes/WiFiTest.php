@@ -29,7 +29,7 @@ class WiFiTest extends TestCase
     {
         $this->wifi->create([
             0 => [
-                'ssid'   => 'foo',
+                'ssid' => 'foo',
                 'hidden' => 'true',
             ],
         ]);
@@ -43,7 +43,7 @@ class WiFiTest extends TestCase
     {
         $this->wifi->create([
             0 => [
-                'ssid'       => 'foo',
+                'ssid' => 'foo',
                 'encryption' => 'WPA',
                 'password'   => 'bar',
             ],
@@ -58,10 +58,10 @@ class WiFiTest extends TestCase
     {
         $this->wifi->create([
             0 => [
-                'ssid'       => 'foo',
+                'ssid' => 'foo',
                 'encryption' => 'WPA',
-                'password'   => 'bar',
-                'hidden'     => 'true',
+                'password' => 'bar',
+                'hidden' => 'true',
             ],
         ]);
 

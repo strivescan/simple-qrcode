@@ -45,7 +45,7 @@ class WiFiTest extends TestCase
             0 => [
                 'ssid' => 'foo',
                 'encryption' => 'WPA',
-                'password'   => 'bar',
+                'password' => 'bar',
             ],
         ]);
 
